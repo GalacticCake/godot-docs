@@ -3,20 +3,23 @@
 Creating instances
 ==================
 
-In the previous part, we saw that a scene is a collection of nodes organized in
-a tree structure, with a single node as its root. You can split your project
-into any number of scenes. This feature helps you break down and organize your
-game's different components.
+Previously we saw that a scene is a collection of nodes organized in a tree like 
+structure, with a single node as its root. You can create any amount of scenes 
+in your project. This feature lets you break down and organize your game's 
+different components. 
 
-You can create as many scenes as you'd like and save them to the disk with the
-``.tscn`` extension, which stands for "text scene". The ``Label.tscn`` file from
-the previous lesson was an example. We call those files "Packed Scenes" as they
-pack information about your scene's content.
+You're able to create as many scenes as you wish, and save them to a disk with 
+the ``.tscn`` extension, which stands for "text scene". The ``Label.tscn`` 
+file, from the previous lesson, was an example of this. Those files are called
+"Packed Scenes" because they pack information about your scene's content. 
 
-Here's the example of a ball. It's composed of a :ref:`RigidBody2D
-<class_RigidBody2D>` node as its root named Ball, which allows the ball to fall
-and bounce on walls, a :ref:`Sprite <class_Sprite>` node, and a
-:ref:`CollisionShape2D <class_CollisionShape2D>`.
+As shown below, there is a 2D Ball. It contains a :ref:`RigidBody2D
+<class_RigidBody2D>` node, a :ref:`Sprite <class_Sprite>` node, and a
+:ref:`CollisionShape2D <class_CollisionShape2D>` node. The purpose of a 
+Rigidbody node allows the ball to fall and bounce of walls. The Sprite, in 
+simple terms, displays an image. The CollisionShape2D lets your object collide 
+with other object, if they also have the collision node. If the collision
+didn't exist, then the Ball would fall through the walls. 
 
 .. image:: img/instancing_ball_scene.png
 
