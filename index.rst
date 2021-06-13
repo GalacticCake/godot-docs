@@ -23,14 +23,14 @@ Godot Docs – *master* branch
             how to use stable Godot releases nevertheless.
 
 Welcome to the official documentation of `Godot Engine <https://godotengine.org>`__,
-the free and open source community-driven 2D and 3D game engine! If you are new
+the free and open source community-driven 2D and 3D game engine! If you're new
 to this documentation, we recommend that you read the
 :ref:`introduction page <doc_about_intro>` to get an overview of what this
 documentation has to offer.
 
-The table of contents below and in the sidebar should let you easily access the
-documentation for your topic of interest. You can also use the search function
-in the top-left corner.
+The table of contents is below, and the sidebar lets you easily access the 
+documentation for topics of interests. You can also use the search function, in 
+the top-left corner, which lets you search topics. 
 
 To browse the documentation offline, you can use the mirror of the documentation
 hosted on `DevDocs <https://devdocs.io/godot/>`__. To enable offline browsing on
